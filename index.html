@@ -1,20 +1,156 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title><b>PromptForger Privacy Policy</b></title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PromptForger Privacy Policy</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f4f6f9;
+    color: #1a1a1a;
+    line-height: 1.7;
+}
+
+.container {
+    max-width: 900px;
+    margin: 60px auto;
+    background: #ffffff;
+    padding: 50px;
+    border-radius: 14px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.updated {
+    color: #6b7280;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-top: 35px;
+    font-size: 20px;
+    border-left: 4px solid #e11d48;
+    padding-left: 12px;
+}
+
+p {
+    margin-top: 10px;
+}
+
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #e5e7eb;
+    font-size: 14px;
+    color: #6b7280;
+}
+
+.contact {
+    font-weight: 600;
+    color: #111827;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 30px;
+        margin: 20px;
+    }
+}
+</style>
 </head>
+
 <body>
+
+<div class="container">
+
 <h1>Privacy Policy for PromptForger</h1>
+<div class="updated">Last Updated: <span id="date"></span></div>
 
-<p>PromptForger does not collect, store, transmit, or sell any personal data.</p>
+<p>
+PromptForger ("the Extension") respects your privacy and is designed with a strict 
+no-data-collection policy. This Privacy Policy explains how information is handled.
+</p>
 
-<p>The extension operates entirely locally within the user’s browser. It detects text input fields on webpages and enhances user-provided prompts directly on the page. No browsing history, personal information, authentication data, financial data, or location data is collected.</p>
+<h2>1. Data Collection</h2>
+<p>
+PromptForger does <strong>not collect, store, transmit, or sell</strong> any personal data.
+The extension operates entirely locally within the user's browser.
+</p>
 
-<p>All user preferences (such as enhancement mode or UI position) are stored locally using Chrome’s storage API and remain on the user’s device.</p>
+<h2>2. Website Content Access</h2>
+<p>
+The extension detects text input fields on webpages in order to enhance 
+user-provided prompts directly on the page. This access is limited strictly 
+to providing the extension’s core functionality.
+</p>
 
-<p>PromptForger does not use analytics, tracking scripts, or remote code execution.</p>
+<ul>
+<li>No browsing history is stored</li>
+<li>No personal information is collected</li>
+<li>No authentication credentials are accessed</li>
+<li>No financial or payment data is collected</li>
+<li>No location data is tracked</li>
+</ul>
 
-<p>Contact: nadeemmansoori05@gmail.com</p>
+<h2>3. Local Storage</h2>
+<p>
+User preferences such as enhancement mode, UI position, or theme selection 
+are stored locally using Chrome’s storage API. This data remains on the 
+user’s device and is never transmitted externally.
+</p>
+
+<h2>4. Remote Code & Analytics</h2>
+<p>
+PromptForger does not use analytics tools, tracking scripts, 
+remote JavaScript execution, or third-party data collection services.
+All executable code is packaged within the extension.
+</p>
+
+<h2>5. Third-Party Data Sharing</h2>
+<p>
+PromptForger does not sell, rent, or transfer user data to third parties.
+</p>
+
+<h2>6. Changes to This Policy</h2>
+<p>
+Any future updates to this Privacy Policy will be reflected on this page 
+with an updated revision date.
+</p>
+
+<div class="footer">
+For questions or support, please contact:  
+<div class="contact">nadeemmansoori05@gmail.com</div>
+</div>
+
+</div>
+
+<script>
+// Auto update today's date
+document.getElementById("date").textContent = new Date().toLocaleDateString();
+</script>
 
 </body>
 </html>
